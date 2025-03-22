@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color: #6D7280;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 40%;
+    min-width: 300px;
+}
+
+.text-container {
+    margin: 64px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 16px;
+
+    background: linear-gradient(60deg, #131e30, #32555f); /* Degradê da esquerda pra direita, vermelho pra verde */
+    -webkit-background-clip: text; /* Para navegadores Webkit como Chrome/Safari */
+    background-clip: text; /* Propriedade padrão */
+    color: transparent; /* Torna o texto "transparente" para mostrar o degradê */
+    display: inline-block; /* Garante que o efeito se aplique corretamente */
+}
+
+.text-container p {
+    font-size: 22px;
+    color: #6D7280;
+    text-align: center;
+    font-weight: 500;
+}
+
+.active {
+    color: #111827;
+}
+
+.policy-container {
+    width: 50%;
+    min-width: 300px;
+
+    padding: 20px 30px;
+    border: 1px solid #e0e7fa;
+    border-radius: 10px;
+
+    height: 600px;
+    overflow-y: auto;
+
+    color: #60626c
+}
