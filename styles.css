@@ -38,7 +38,8 @@ main {
 }
 
 img {
-    width: 40%;
+    width: 60%;
+    max-width: 700px;
     min-width: 300px;
 }
 
