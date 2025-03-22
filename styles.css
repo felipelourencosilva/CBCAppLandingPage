@@ -56,11 +56,11 @@ img {
     font-size: 42px;
     margin-bottom: 16px;
 
-    background: linear-gradient(60deg, #131e30, #32555f); /* Degradê da esquerda pra direita, vermelho pra verde */
-    -webkit-background-clip: text; /* Para navegadores Webkit como Chrome/Safari */
-    background-clip: text; /* Propriedade padrão */
-    color: transparent; /* Torna o texto "transparente" para mostrar o degradê */
-    display: inline-block; /* Garante que o efeito se aplique corretamente */
+    background: linear-gradient(60deg, #131e30, #32555f);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    display: inline-block; 
 }
 
 .text-container p {
@@ -85,5 +85,6 @@ img {
     height: 600px;
     overflow-y: auto;
 
-    color: #60626c
+    color: #60626c;
+    margin-bottom: 48px;
 }
